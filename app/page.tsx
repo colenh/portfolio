@@ -29,7 +29,7 @@ export default function Home() {
 							</li>
 
 							<li>
-								<Link href="https://oranjetaxi.xyz" className="text-[#de8222] hover:underline underline-offset-1 hover:animate-pulse items-center inline-flex opacity-80" target="_blank" rel="noreferrer">
+								<Link href="https://oranjetaxi.xyz" className="text-[#c4621b] hover:underline underline-offset-1 hover:animate-pulse items-center inline-flex opacity-80" target="_blank" rel="noreferrer">
 									oranjetaxi
 								</Link>{" "}
 								- a taxi company within the virtual experience De Antillen on Roblox.
