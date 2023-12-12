@@ -22,13 +22,6 @@ export default function Home() {
 
 						<ul className="text-neutral-400 my-4 text-base space-y-1 list-disc list-inside">
 							<li>
-								<Link href="https://porcify.com" className="text-[#ba7a79] hover:underline underline-offset-1 hover:animate-pulse items-center inline-flex opacity-80" target="_blank" rel="noreferrer">
-									porcify
-								</Link>{" "}
-								- a software platform that enables companies to incentivize and reward individuals not only for discovering vulnerabilities and bugs but also for making valuable code contributions and more.
-							</li>
-
-							<li>
 								<Link href="https://oranjetaxi.xyz" className="text-[#c4621b] hover:underline underline-offset-1 hover:animate-pulse items-center inline-flex opacity-80" target="_blank" rel="noreferrer">
 									oranjetaxi
 								</Link>{" "}
