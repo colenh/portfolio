@@ -19,10 +19,10 @@ export default function Home() {
 							width="96"
 						/>
 						<h2 className="mt-6 text-3xl font-bold tracking-tight text-white">colenh</h2>
-						<p className="mt-2 text-sm text-neutral-400">student & software engineer from west virginia</p>
+						<p className="mt-2 text-sm text-neutral-400">frontend software engineer & student from west virginia</p>
 					</div>
 					<div>
-						<p className="text-neutral-300">hey there! my name is cole, and i am a high school student and software engineer living in west virginia.</p>
+						<p className="text-neutral-300">hey there! my name is cole, and i am a frontend software engineer and high school student from west virginia.</p>
 					</div>
 					<div>
 						<h3 className="text-lg font-semibold text-white">// projects</h3>
@@ -38,6 +38,17 @@ export default function Home() {
 									oranjetaxi
 								</Link>{" "}
 								- a taxi company within the virtual experience De Antillen on Roblox.
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h3 className="text-lg font-semibold text-white">// experience</h3>
+						<ul className="list-disc pl-5 space-y-1 text-neutral-300">
+							<li>
+								<Link className="text-green-600 hover:text-green-700 opacity-80 transition-colors" href="https://www.serieswork.com">
+									frontend software engineer, marketing at sailboat games / series
+								</Link>{" "}
+								- in charge of crafting and maintaining all landing pages for both Series and Eastside, two companies under the Sailboat Games umbrella.
 							</li>
 						</ul>
 					</div>
