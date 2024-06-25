@@ -3,21 +3,11 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<div className="dark flex justify-center min-h-[calc(100dvh)] bg-neutral-900 px-4 sm:px-6 lg:px-8">
-			<div className="flex items-center justify-center h-[calc(100dvh)]">
-				<div className="max-w-xl space-y-8">
+		<div className="dark flex items-center justify-center min-h-[calc(100dvh)] bg-neutral-900 px-4 sm:px-6 lg:px-8 py-8 mx-auto">
+			<div className="flex items-center justify-center h-[calc(100dvh)] mx-auto ">
+				<div className="max-w-xl min-h-screen space-y-8 mx-auto py-6">
 					<div className="text-center">
-						<Image
-							alt=""
-							className="mx-auto h-24 w-24 rounded-full"
-							height="96"
-							src="/cole.svg"
-							style={{
-								aspectRatio: "96/96",
-								objectFit: "cover"
-							}}
-							width="96"
-						/>
+						<Image alt="" className="mx-auto h-24 w-24 rounded-full aspect-square" height="96" src="/cole.svg" width="96" />
 						<h2 className="mt-6 text-3xl font-bold tracking-tight text-white">colenh</h2>
 						<p className="mt-2 text-sm text-neutral-400">frontend software engineer & student from west virginia</p>
 					</div>
