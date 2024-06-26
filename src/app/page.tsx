@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-[calc(100dvh)] bg-neutral-900 text-neutral-300 p-4 space-y-8">
+		<div className="flex flex-col items-center justify-center min-h-[calc(100dvh)] bg-neutral-900 text-neutral-300 p-4 space-y-8 py-8">
 			<div className="flex flex-col items-center space-y-4">
 				<Image alt="" className="mx-auto h-24 w-24 rounded-full aspect-square" height="96" src="/cole.svg" width="96" />
-				<h1 className="text-3xl font-bold tracking-tight text-white">colenh</h1>
-				<p className="text-neutral-400">frontend software engineer & student from west virginia</p>
+				<h1 className="text-3xl font-bold tracking-tight text-white text-center">colenh</h1>
+				<p className="text-neutral-400 text-center">frontend software engineer & student from west virginia</p>
 			</div>
 			<div className="max-w-xl space-y-8">
 				<p>hey there! my name is cole, and i am a frontend software engineer and high school student from west virginia.</p>
@@ -68,7 +68,7 @@ export default function Home() {
 						</li>
 					</ul>
 				</div>
-				<p>
+				<p className="text-center">
 					you can find the source code for this website on github at{" "}
 					<Link className="text-neutral-500 hover:text-opacity-70 opacity-80 transition-colors" href="https://github.com/colenh/portfolio">
 						colenh/portfolio
