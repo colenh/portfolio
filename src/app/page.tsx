@@ -24,7 +24,7 @@ export default function Home() {
 							<Link className="text-[#a4d233] hover:text-opacity-70 opacity-80 transition-colors" href="https://wandera.app">
 								wandera
 							</Link>{" "}
-							- enables you to control and amend your Roblox datastores from any place, device or planet regardless of your access to Studio.
+							- empowers you to manage your small business operations from any place, device, or planet with shipping, accounting, supply management, CRM, inventory, and more.
 						</li>
 						<li>
 							<Link className="text-[#c4621b] hover:text-opacity-70 opacity-80 transition-colors" href="https://oranjetaxi.xyz">
