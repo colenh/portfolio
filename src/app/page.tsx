@@ -41,7 +41,7 @@ export default function Home() {
 							- empowers you to manage your small business operations from any place, device, or planet with shipping, accounting, supply management, CRM, inventory, and more.
 						</li>
 						<li>
-							<Link className="text-[#c4621b] hover:text-opacity-70 opacity-80 transition-colors" href="https://oranjetaxi.co" target="_blank">
+							<Link className="text-[#c4621b] hover:text-opacity-70 opacity-80 transition-colors" href="https://oranjetaxi.com" target="_blank">
 								oranjetaxi
 							</Link>{" "}
 							- a taxi company within the virtual experience De Antillen on Roblox.
