@@ -1,21 +1,52 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.8.2/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.1.1/schema.json",
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
 	"files": {
-		"ignore": [".next/**"]
+		"ignoreUnknown": true,
+		"includes": ["**"]
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab",
+		"lineWidth": 320
 	},
 	"linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": true,
 			"suspicious": {
-				"noCommentText": "off"
+				"noArrayIndexKey": "off",
+				"noDocumentCookie": "off"
+			},
+			"nursery": {
+				"useUniqueElementIds": "off",
+				"noNestedComponentDefinitions": "off"
+			},
+			"a11y": {
+				"useSemanticElements": "off",
+				"useFocusableInteractive": "off",
+				"useAriaPropsForRole": "off"
+			},
+			"security": {
+				"noDangerouslySetInnerHtml": "off"
+			},
+			"style": {
+				"noParameterAssign": "error",
+				"useAsConstAssertion": "error",
+				"useDefaultParameterLast": "error",
+				"useEnumInitializers": "error",
+				"useSelfClosingElements": "error",
+				"useSingleVarDeclarator": "error",
+				"noUnusedTemplateLiteral": "error",
+				"useNumberNamespace": "error",
+				"noInferrableTypes": "error",
+				"noUselessElse": "error"
 			}
 		}
-	},
-	"formatter": {
-		"enabled": true,
-		"indentStyle": "tab",
-		"lineWidth": 320
 	},
 	"javascript": {
 		"formatter": {
@@ -25,8 +56,12 @@
 			"semicolons": "always"
 		}
 	},
-	"organizeImports": {
+	"assist": {
 		"enabled": true,
-		"ignore": [".next/**"]
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
 	}
 }

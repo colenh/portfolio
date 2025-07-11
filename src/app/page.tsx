@@ -16,7 +16,7 @@ export default function Home() {
 			<div className="max-w-xl space-y-8">
 				<p className="text-center">
 					hey there! my name is cole, and i am a software engineer and college student in west virginia. i am currently attending{" "}
-					<Link className="bg-gradient-to-r from-blue-500  to-yellow-500 bg-clip-text text-transparent hover:opacity-80 transition-colors" href="https://wvu.edu/" target="_blank">
+					<Link className="bg-linear-to-r from-blue-500  to-yellow-500 bg-clip-text text-transparent hover:opacity-80 transition-colors" href="https://wvu.edu/" target="_blank">
 						west virginia university
 					</Link>{" "}
 					for computer science and cybersecurity, and i have a ton of experience in website design and backend engineering. i am always searching for new opportunities, so feel free to{" "}
