@@ -9,7 +9,7 @@
 		"lint": "next lint",
 		"fix": "biome check . --write --unsafe && biome format . --write && biome lint . --write"
 	},
-	"packageManager": "pnpm@10.12.4",
+	"packageManager": "pnpm@10.13.1",
 	"dependencies": {
 		"@tailwindcss/postcss": "^4.1.11",
 		"next": "^15.3.5",

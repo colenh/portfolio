@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/suspicious/noCommentText: used for header text */
 import Image from "next/image";
 import Link from "next/link";
 
@@ -53,7 +54,7 @@ export default function Home() {
 					<ul className="list-disc list-outside space-y-2 pl-5">
 						<li>
 							<Link className="text-[#a957f7] hover:text-opacity-70 opacity-80 transition-colors" href="https://series.hr/" target="_blank">
-								director of engineering at sailboat games
+								engineering manager at sailboat games
 							</Link>{" "}
 							<span className="italic text-neutral-500">(2021-present)</span> - in charge of shaping and delivering every technical experience, overseeing the strategy for both Series and Eastside at Sailboat Games.
 						</li>
@@ -66,6 +67,12 @@ export default function Home() {
 							email -{" "}
 							<Link className="text-neutral-500 hover:text-opacity-70 opacity-80 transition-colors" href="mailto:me@colenh.dev">
 								me@colenh.dev
+							</Link>
+						</li>
+						<li>
+							linkedin -{" "}
+							<Link className="text-neutral-500 hover:text-opacity-70 opacity-80 transition-colors" href="https://www.linkedin.com/in/colenh" target="_blank">
+								@colenh
 							</Link>
 						</li>
 						<li>
