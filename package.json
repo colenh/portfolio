@@ -9,21 +9,23 @@
 		"lint": "next lint",
 		"fix": "biome check . --write --unsafe && biome format . --write && biome lint . --write"
 	},
-	"packageManager": "pnpm@10.13.1",
+	"packageManager": "pnpm@10.20.0",
 	"dependencies": {
-		"@tailwindcss/postcss": "^4.1.11",
-		"next": "^15.3.5",
-		"react": "^19.1.0",
-		"react-dom": "^19.1.0"
+		"@tailwindcss/postcss": "^4.1.16",
+		"clsx": "^2.1.1",
+		"next": "^16.0.1",
+		"react": "^19.2.0",
+		"react-dom": "^19.2.0",
+		"tailwind-merge": "^3.3.1"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.1.1",
-		"@types/node": "^24.0.13",
-		"@types/react": "^19.1.8",
-		"@types/react-dom": "^19.1.6",
+		"@biomejs/biome": "^2.3.2",
+		"@types/node": "^24.9.2",
+		"@types/react": "^19.2.2",
+		"@types/react-dom": "^19.2.2",
 		"postcss": "^8.5.6",
-		"tailwindcss": "^4.1.11",
-		"typescript": "^5.8.3"
+		"tailwindcss": "^4.1.16",
+		"typescript": "^5.9.3"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
