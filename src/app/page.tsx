@@ -53,10 +53,10 @@ export default function Home() {
 					<h2 className="text-xl font-bold">// experience</h2>
 					<ul className="list-disc list-outside space-y-2 pl-5">
 						<li>
-							<Link className="text-[#a957f7] hover:text-opacity-70 opacity-80 transition-colors" href="https://series.hr/" target="_blank">
+							<Link className="text-[#a957f7] hover:text-opacity-70 opacity-80 transition-colors" href="https://sailboatgames.com/" target="_blank">
 								engineering manager at sailboat games
 							</Link>{" "}
-							<span className="italic text-neutral-500">(2021-present)</span> - in charge of shaping and delivering every technical experience, overseeing the strategy for both Series and Eastside at Sailboat Games.
+							<span className="italic text-neutral-500">(2021-present)</span> - in charge of shaping and delivering every technical experience, as well as overseeing the technical strategy for Series at Sailboat Games.
 						</li>
 					</ul>
 				</div>
